@@ -34,6 +34,8 @@
         <!-- 电话操作页面 -->
         <activity android:name="com.phone.PhoneView"
             android:screenOrientation="portrait"/>
+        <!-- 短信验证码自动填写 -->
+        <activity android:name="com.sms.SMSActivity"/>
         <!-- 监听来电的广播 -->
         <receiver android:name="com.receiver.PhoneReceiver">
             <intent-filter android:priority="1000">
